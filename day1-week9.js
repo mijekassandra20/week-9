@@ -125,9 +125,33 @@
 // - System-wide visibility into resource usage, application performance, and operational health is provided by CloudWatch.
 
 // TODO 30. What is Secrets Manager?
+// - With Secrets Manager, You can secure access to your applications, services, and IT resources.
+// - In simplest terms, it's a secrets management service where you store secrets like keys, passwords, api keys.
+
 // TODO 31. How does Secrets Manager work?
+// - The protected secret data and the encrypted data key are both stored in Secrets Manager. 
+// - When the secret has to be decrypted, Secrets Manager asks AWS KMS to unlock the data key, which it then uses to unlock the secret data that has been encrypted.
+
 // TODO 32. What are some use cases of Secrets Manager?
+// - Securely encrypt and centrally audit secrets such as database credentials and API keys.
+// - Manage access to secrets using fine-grained AWS Identity and Access Management (IAM) and resource-based policies.
+// - Rotate secrets automatically to meet your security and compliance requirements.
+// - Replicate secrets to support disaster recovery scenarios and multi-region applications.
+
 // TODO 33. What is CloudTrail?
+// - By monitoring user behavior and API usage, CloudTrail provides audits, security monitoring, and operational troubleshooting. 
+// - To give you control over storage, analysis, and corrective measures, CloudTrail records, continually monitors, and stores account activity connected to actions throughout your AWS infrastructure.
+
 // TODO 34. How does CloudTrail work?
+// - When activity occurs in your AWS account, that activity is recorded in a CloudTrail event. To view events you can go to EVENT HISTORY.
+// - Event history allows you to view, search, and download the past 90 days of activity in your AWS account. 
+// - You can also create a CloudTrail trail to archive, analyze, and respond to changes in your AWS resources. 
+// - A trail is a configuration that enables delivery of events to an Amazon S3 bucket that you specify.
+
 // TODO 35. What are some use cases of CloudTrail?
+// - Across your AWS infrastructure, CloudTrail lets you browse, search, download, archive, examine, and react to account activity. 
+// - To assist you in analyzing and taking action in response to activity in your AWS account, you may determine who or what performed whatever action, which resources were utilized, when the event occurred, and other specifics.
+
 // TODO 36. What is CI/CD integration?
+// - A CI/CD pipeline automates the process of software delivery.It helps with the safe deployment of code, testing, and the secure release of updated software. 
+// - The CI/CD pipeline decreases manual errors, provides engineers feedback, and enable rapid product iterations.
